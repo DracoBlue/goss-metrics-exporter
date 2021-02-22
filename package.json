@@ -1,0 +1,17 @@
+{
+  "name": "goss-metrics-exporter",
+  "description": "This project offers a prometheus metrics exporter for an external goss serve endpoint.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DracoBlue <JanS@DracoBlue.de>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "got": "^11.8.1"
+  }
+}
